@@ -117,7 +117,7 @@ public:
      * @param tam Tamaño de los datos.
      */
 
-     [Texto], N, SecureMode_t, SecureMode_t -> Caracteristica()
+     //[Texto], N, SecureMode_t, SecureMode_t -> Caracteristica()
     Caracteristica(const char* nombreCaracteristica_, uint8_t props, SecureMode_t permisoRead, SecureMode_t permisoWrite, uint8_t tam): Caracteristica(nombreCaracteristica_)  // llamada al otro constructor
     {
       (*this).asignarPropiedadesPermisosYTamanyoDatos(props, permisoRead, permisoWrite, tam);
